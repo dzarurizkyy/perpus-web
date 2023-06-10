@@ -3,10 +3,10 @@ Login Akun
 Perpus Web ini terdiri dari 2 jenis login, yaitu admin dan user. <br />
 Untuk masuk website, berikut akun yang telah terdaftar dalam database :
 
-- Admin  
+- <b>Admin</b>  
   Username : 198507232005022001 - Password : Irnanto1234 
   <br />
-- User  
+- <b>User</b>  
   Username : 23081010001 - Password : mark001 <br />
   Username : 22031010022 - Password : vivi1234 <br />
 
