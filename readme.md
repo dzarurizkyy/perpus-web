@@ -11,7 +11,7 @@ Untuk masuk website, berikut akun yang telah terdaftar dalam database :
   Username : 22031010022 - Password : vivi1234 <br />
 
 -------------
-Anggota Kelompok 9 :
+<b>Anggota Kelompok 9 :</b>
 - Nasywa Andin Safitri (21081010265)
 - Muhammad Rifky Ivansyah Munaf (21081010270)
 - Siti Nur Rohmatul Ummah (21081010272)
