@@ -1,0 +1,669 @@
+/* All  */
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-color: #ebebeb;
+  overflow-y: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+label {
+  display: block;
+}
+
+/* Login */
+#login-page {
+  background-image: url("../Image/Assets/login-background.png");
+}
+
+.login-title {
+  margin-top: 50px;
+  margin-bottom: 14px;
+  color: #ffffff;
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.login-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-icon-img {
+  width: 96px;
+  margin-bottom: -30px;
+}
+
+.login-box {
+  width: 340px;
+  height: 240px;
+  margin: 0 auto;
+  padding: 36px;
+  border-radius: 22px;
+  background-color: rgba(255, 255, 255, 18%);
+  box-shadow: 0.6px 1.4px 6px 0px #3d4b69;
+}
+
+.form-login {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.input-login {
+  height: 42px;
+  margin-top: 4px;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+}
+
+.login-username {
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+
+.login-submit {
+  width: 180px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: 550;
+  background-color: rgba(0, 87, 146, 1);
+  cursor: pointer;
+}
+
+/* Header */
+.header {
+  height: 80px;
+  position: static;
+  top: 0;
+  left: 238px;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background: linear-gradient(270deg, #005792 6.48%, #00bbf0 51.04%, #60c8b5 100%);
+}
+
+.header-greeting {
+  margin-right: 20px;
+  font-weight: 600;
+  color: #e1a245;
+  display: flex;
+  align-items: center;
+}
+
+.header-photo-profile {
+  width: 52px;
+  margin-left: 14px;
+  border-radius: 52px;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  width: 238px;
+  height: 100%;
+  top: 0;
+  background-color: #14213d;
+}
+
+.sidebar-icon {
+  display: flex;
+  align-items: center;
+  margin-top: 14px;
+  margin-left: 26px;
+  margin-bottom: 6px;
+}
+
+.sidebar-icon-img {
+  width: 44px;
+  margin-right: 10px;
+}
+
+.sidebar-icon-text {
+  color: #e1a245;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.line-divider {
+  width: 220px;
+  height: 2px;
+  margin-left: 6px;
+  background-color: #e1a245;
+}
+
+.sidebar-photo-profile {
+  display: flex;
+  align-items: center;
+}
+
+.photo-profile {
+  width: 52px;
+  margin-top: 32px;
+  margin-left: 26px;
+  margin-right: 16px;
+  border-radius: 54px;
+}
+
+.sidebar-username {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #e1a245;
+}
+
+.sidebar-type {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* Menus */
+.menus-dashboard,
+.menus-transaction,
+.menus-edit-profile,
+.menus-master-data,
+.menus-report,
+.menus-logout {
+  margin-bottom: 28px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menus-dashboard {
+  margin-top: 40px;
+}
+
+.menus-dashboard,
+.menus-transaction,
+.menus-master-data,
+.menus-report {
+  margin-left: 26px;
+}
+
+.menus-edit-profile {
+  margin-left: 27px;
+}
+
+.menus-logout {
+  margin-left: 31px;
+  position: absolute;
+  bottom: 4;
+}
+
+.menus-dashboard-img,
+.menus-master-data-img,
+.menus-report-img,
+.menus-transaction-img {
+  width: 22px;
+  margin-right: 16px;
+}
+
+.menus-edit-profile-img {
+  width: 20px;
+  margin-right: 19px;
+}
+
+.menus-logout-img {
+  width: 22px;
+  margin-right: 14px;
+}
+
+.menus-master-data-text,
+.menus-book-table-text,
+.menus-user-table-text,
+.menus-report-text,
+.menus-transaction-report-text,
+.menus-book-report-text,
+.menus-dashboard-text,
+.menus-transaction-text,
+.menus-edit-profile-text,
+.menus-logout-text {
+  color: #e1a245;
+  font-size: 16px;
+}
+
+.menus-book-table-text,
+.menus-transaction-report-text,
+.menus-book-report-text {
+  margin-left: 64px;
+  margin-bottom: 18px;
+}
+
+.menus-user-table-text {
+  margin-left: 64px;
+  margin-bottom: 32px;
+}
+
+.menus-logout-text:hover {
+  font-weight: 700;
+}
+
+/* Notification */
+.notification {
+  height: 220px;
+  margin-top: 20px;
+  margin-left: 276px;
+  display: flex;
+  position: static;
+  align-items: center;
+}
+
+.notification-pick,
+.notification-transaction-total,
+.notification-transaction-status,
+.notification-book-total,
+.notification-user-total,
+.notification-returned {
+  width: 226px;
+  height: 170px;
+  margin-right: 24px;
+  padding-left: 4px;
+  padding-right: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+}
+
+.notification-pick-text,
+.notification-transaction-total-text,
+.notification-book-total-text,
+.notification-user-total-text,
+.notification-returned-text {
+  margin-right: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.notification-transaction-status-text,
+.notification-book-total-text {
+  margin-right: 6px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.notification-pick-total,
+.notification-transaction-total-number,
+.notification-transaction-status-number,
+.notification-book-total-number,
+.notification-user-total-number,
+.notification-returned-total {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.notification-pick-title,
+.notification-transaction-total-title,
+.notification-transaction-status-title,
+.notification-book-total-title,
+.notification-user-total-title,
+.notification-returned-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.notification-transaction-status-img,
+.notification-book-total-img {
+  margin-right: 12px;
+}
+
+/* Display Table */
+.transaction-user,
+.master-data-book,
+.master-data-user {
+  width: 974px;
+  height: 220px;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 266px;
+  margin-right: 100px;
+  align-items: center;
+}
+
+.transaction-history {
+  margin-top: 10px;
+  margin-left: 276px;
+  margin-right: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 25px;
+  margin-left: 4px;
+}
+
+.card-title {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.column-id-book,
+.column-book-cover,
+.column-book-title,
+.column-book-author,
+.column-book-total,
+.column-book-option,
+.column-user-npm,
+.column-user-photo,
+.column-user-name,
+.column-user-noTelephone,
+.column-user-department,
+.column-user-option {
+  border: 1px solid #dfdfdf;
+  border-top: none;
+}
+
+.column-book-cover,
+.column-book-option,
+.column-user-photo,
+.column-user-option {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cover-book {
+  width: 100px;
+  height: 160px;
+}
+
+.user-photo {
+  width: 110px;
+  height: 110px;
+}
+
+/* Form */
+.form-add-transaction,
+.form-add-book,
+.form-edit-book,
+.form-add-user,
+.form-edit-user {
+  height: auto;
+  position: relative;
+  left: 0;
+  right: 0;
+  display: flex;
+  margin-top: 44px;
+  margin-bottom: 32px;
+  margin-left: 280px;
+  margin-right: 30px;
+  padding-left: 50px;
+  padding-right: 30px;
+  padding-bottom: 16px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+/* Left Column */
+.add-transaction-col,
+.add-book-left-col,
+.edit-book-left-col,
+.add-user-left-col,
+.edit-user-left-col {
+  margin-right: 60px;
+}
+
+/* Right Column */
+.add-book-right-col,
+.edit-book-right-col,
+.add-user-right-col,
+.edit-user-right-col {
+  padding-top: 84px;
+}
+
+/* Feature Title */
+.add-transaction-title,
+.add-book-title,
+.edit-book-title,
+.add-user-title,
+.edit-user-title {
+  margin-top: 30px;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+/* Input Container */
+.add-transaction-id,
+.add-book-code,
+.edit-book-name,
+.add-user-id,
+.edit-user-name {
+  margin-top: 24px;
+}
+
+.add-transaction-book,
+.add-transaction-pick,
+.add-transaction-return,
+.add-transaction-admin,
+.add-book-name,
+.add-book-author,
+.add-book-publisher,
+.add-book-type,
+.add-book-year,
+.add-book-total,
+.add-book-cover,
+.edit-book-author,
+.edit-book-publisher,
+.edit-book-type,
+.edit-book-year,
+.edit-book-total,
+.add-user-name,
+.add-user-npm,
+.add-user-faculty,
+.add-user-department,
+.add-user-gender,
+.add-user-email,
+.add-user-password,
+.add-user-telephone,
+.add-user-address,
+.add-user-photo,
+.edit-user-address,
+.edit-user-faculty,
+.edit-user-department,
+.edit-user-telephone,
+.edit-user-email,
+.edit-user-password,
+.edit-user-photo {
+  margin-top: 4px;
+}
+
+.add-user-button {
+  margin-top: 28px;
+}
+
+.edit-user-button {
+  margin-top: 24px;
+}
+
+.edit-book-cover-upload {
+  display: flex;
+  align-items: center;
+}
+
+/* Label */
+.label-add-transaction,
+.label-add-book,
+.label-edit-book,
+.label-add-user,
+.label-edit-user {
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Input */
+.input-add-transaction,
+.input-add-book,
+.input-edit-book,
+.input-add-user,
+.input-edit-user {
+  color: #fbf9f9;
+  background-color: #bdbdbd;
+  border: none;
+  padding: 12px;
+  padding-right: 14px;
+  border-radius: 12px;
+  margin-bottom: 18px;
+  appearance: none;
+}
+
+#year-book,
+#total-book,
+#book-cover-file[type="file"] {
+  width: 210px;
+}
+
+#user-npm,
+#user-telephone[type="number"],
+#user-photo-file[type="file"] {
+  width: 310px;
+}
+
+#transaction-pick,
+#transaction-return,
+#transaction-admin {
+  width: 385px;
+}
+
+/* Temp Photo */
+.book-cover-old {
+  width: 98px;
+  height: 134px;
+  margin-right: 20px;
+  border: 1.4px solid rgba(0, 0, 0, 30%);
+  padding: 2px;
+}
+
+.user-photo-old {
+  width: 120px;
+  height: 120px;
+  margin-top: 16px;
+  border: 1px solid black;
+}
+
+/* Button */
+.add-transaction-button,
+.add-book-button,
+.edit-book-button {
+  margin-top: 18px;
+  padding-bottom: 10px;
+}
+
+.add-button {
+  margin-bottom: 38px;
+  margin-left: 4px;
+  text-align: left;
+}
+
+.add-button-text {
+  padding: 10px 20px;
+  color: white;
+  font-weight: 500;
+  background-color: rgb(50, 173, 245);
+  border-radius: 15px;
+}
+
+.submit-button,
+.cancel-button {
+  padding: 10px;
+  border: none;
+  width: 120px;
+  border-radius: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.submit-button {
+  background-color: #005792;
+  margin-right: 10px;
+}
+
+.cancel-button {
+  background-color: #db1212;
+}
+
+.edit-button,
+.delete-button {
+  width: 38px;
+  margin-right: 2px;
+}
+
+.change-status-button {
+  color: white;
+  font-weight: 600;
+  padding: 10px;
+  background-color: #28a745;
+  border: 1px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Feport  */
+.report {
+  margin-top: 30px;
+  margin-left: 260px;
+  margin-right: 26px;
+  padding-top: 8px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.report-text,
+.report-export {
+  display: block;
+  margin-left: 16px;
+  margin-bottom: 30px;
+}
+
+.table-pdf {
+  width: 100%;
+}
+
+.table-pdf th {
+  border: 1px solid lightgray;
+}
+
+.table-pdf td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid gray;
+}
+
+.export-pdf {
+  padding: 10px 20px;
+  border-radius: 15px;
+  color: white;
+  background-color: red;
+}
+
+.export-excel {
+  padding: 10px 20px;
+  border-radius: 15px;
+  color: white;
+  background-color: green;
+}
+
+#Mytable {
+  margin-bottom: 20px;
+}
